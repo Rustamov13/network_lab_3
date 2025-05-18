@@ -22,17 +22,21 @@ This repository contains a PowerShell script that pings a list of websites, logs
 ## Usage
 
 1. **Clone this repo**  
+
    ```powershell
+
+
    git clone https://github.com/Rustamov13/network_lab_3.git
    cd your-repo
 
-2. **Set execution policy**
+3. **Set execution policy**
+
    Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
-3. **Run the script**
+4. **Run the script**
 
    .\ping-sites.ps1
 
-4. **View results**
+5. **View results**
 
    ping_results.csv
